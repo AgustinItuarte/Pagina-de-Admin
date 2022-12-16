@@ -63,6 +63,18 @@ body {
     grid-row: 1;
 }
 
+.utilities-btn > button {
+    background-color: #0284c7;
+    border: none;
+    cursor: pointer;
+    font-family: roboto;
+    color: white;
+    font-size: 1rem;
+    border-radius: 30px;
+    height: 45px;
+    width: 30%;
+}
+
 #search {
     background-color: #cbd5e1;
     border: none;
