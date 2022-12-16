@@ -40,8 +40,21 @@ body {
     grid-row: 2;
 }
 
-.user-photo img {
+.personal-btn {
+    display: flex;
+    gap: 20px;
+}
+
+.user-photo img,
+.personal-btn .photo-perfil {
     border-radius: 50%;
+}
+
+.personal-btn > button {
+    background-color: white;
+    border: none;
+    font-family: roboto;
+    font-size: 1rem;
 }
 
 .search-bar {
