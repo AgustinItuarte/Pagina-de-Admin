@@ -3,6 +3,11 @@
     src: url(fonts/Roboto-Medium.ttf);
 }
 
+@font-face {
+    font-family: robotolight;
+    src: url(fonts/Roboto-Thin.ttf);
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -55,6 +60,7 @@ body {
     border: none;
     font-family: roboto;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .search-bar {
@@ -145,6 +151,8 @@ body {
 
 .texto {
     font-size: 0.6em;
+    font-family: robotolight;
+    color: gray;
 }
 
 .barra {
@@ -168,12 +176,15 @@ body {
 
 .anuncios {
     display: grid;
-    grid-template-rows: 9.5%;
+    grid-template-rows: 7%;
     gap: 30px;
     margin-left: 10%;
 }
 
 .anuncios-varios {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    padding: 10px;
 }
 
 .trending {
@@ -182,10 +193,25 @@ body {
     gap: 30px;
     margin-left: 10%;
     grid-column: 2 / 3;
-    
 }
 
 .cosas-trending {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.trending1 {
+    display: flex;
+    align-items: center;
+    font-size: 0.7em;
+    gap: 10px;
+}
+
+.novedad-texto {
+    font-family: robotolight;
+    color: gray;
 }
 
 .proyecto,  .anuncios-varios,
