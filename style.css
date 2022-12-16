@@ -34,7 +34,14 @@ body {
 }
 
 .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     grid-row: 2;
+}
+
+.user-photo img {
+    border-radius: 50%;
 }
 
 .search-bar {
